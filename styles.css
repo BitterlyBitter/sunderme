@@ -1,0 +1,47 @@
+.container {
+    background-color: black;
+    color: white;
+    font-family: 'Gothic A1', sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 5px red;
+}
+
+a {
+    color: blood-red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+.button {
+    background-color: blood-red;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.shadow {
+    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.5);
+}
+
+.blood-splash {
+    background: url('images/blood-splash.png') no-repeat center;
+    background-size: cover;
+}
+
+.footer {
+    background-color: crimson;
+    text-align: center;
+    padding: 15px;
+}
