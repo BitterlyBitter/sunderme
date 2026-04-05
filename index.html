@@ -8,13 +8,25 @@
 }
 </style>
 
-<img src="homepage.jpg" alt="sunder me bg">
+<img src="homepage.jpg" alt="sunder me bg" class="background-image">
+
+<style>        
+.background-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+</style>
 
 <style>
     body {
         background-color: black;
     }
 </style>
+
+
+
+
 
 -eye up code 
 
@@ -29,24 +41,33 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 15px;
+        gap: 2%;
+        width:100%;
+        height: auto;
     }
 
-    .eye {
-        width: 800px;
-        height: 800x;
+    .eye-row img {
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+        display: block;
     }
+
 
     .carnagebutton {
-        padding: 20px 40px;
         background-color:darkred;
         color: black;
         border: 1px solid black;
-        height:20px;
         margin-top: 10px;
         text-decoration: none;
         font-family: 'Special Elite', serif;
-        font-size: 30px;
+        display: inline-block;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-size: 2vw;
+        min-font-size: 16px;
+        position:absolute;
+        padding: 10px 10px;
     }
 </style>
 
@@ -65,7 +86,6 @@
 -font special elite
 
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-
 
 
 </html>
